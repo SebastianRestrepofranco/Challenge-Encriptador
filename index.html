@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/imagenes/isotipo.jpg" alt="logo de el encriptador" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="20" rows="5" placeholder="Ingrese su texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Codificar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Decodificar</button>
+            </div>
+        </section>
+        
+        <section>
+            <textarea class="mensaje" id="" cols="35" rows="15"></textarea>
+            <div>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="/script.js"></script>   
+<footer style="text-align: center;">
+    <p>&copy; Sebastian Restrepo Franco - sebasrestrepof@gmail.com - <a href="https://www.linkedin.com/in/sebastian-restrepo-franco-ds">www.linkedin.com/in/sebastian-restrepo-franco-ds</a></p>
+</footer>
+
+</body>
+</html>
